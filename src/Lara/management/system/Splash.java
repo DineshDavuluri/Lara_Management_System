@@ -21,23 +21,23 @@ public class Splash extends JFrame implements Runnable {
         setVisible(true);
 
         int x = 0;
-for (int i = 2; i <= 800; i += 4, x += 1) {
-    // Calculate the new width and height
-    int width = i + 3 * x;
-    int height = i + x / 2;
+        for (int i = 2; i <= 800; i += 4, x += 1) {
+            // Calculate the new width and height
+            int width = i + 3 * x;
+            int height = i + x / 2;
 
-    // Calculate the new location to keep the center at the same position
-    int newX = (getWidth() - width) / 2;
-    int newY = (getHeight() - height) / 2;
+            // Calculate the new location to keep the center at the same position
+            int newX = (getWidth() - width) / 2;
+            int newY = (getHeight() - height) / 2;
 
-    setLocation(newX, newY);
-    setSize(width, height);
+            setLocation(newX, newY);
+            setSize(width, height);
 
-    try {
-        Thread.sleep(10);
-    } catch (Exception e) {
-    }
-}
+            try {
+                Thread.sleep(10);
+            } catch (Exception e) {
+            }
+        }
     }
 
     public void run() {
