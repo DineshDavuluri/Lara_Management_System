@@ -17,7 +17,6 @@ public class AddStudent extends JFrame implements ActionListener {
 
     Random ran = new Random();
     // long first4 = Math.abs((ran.nextLong() % 9000L) + 1000L);
-
     @SuppressWarnings({ "rawtypes", "unchecked" })
     AddStudent() {
 
