@@ -1,0 +1,20 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "postgresqlconn",
+            "database": "Sample",
+            "username": "postgres",
+            "password": "databased",
+            "connectionTimeout": 30
+        }
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\dines\\Downloads\\jcalendar-1.2.2.jar",
+        "d:\\project\\Student Reg Form Desktop Application\\student\\src\\main\\java\\com\\mycompany\\postgresql-42.7.4.jar"
+    ]
+}
