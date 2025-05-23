@@ -14,7 +14,10 @@
     ],
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "c:\\Users\\dines\\Downloads\\jcalendar-1.2.2.jar",
-        "d:\\project\\Student Reg Form Desktop Application\\student\\src\\main\\java\\com\\mycompany\\postgresql-42.7.4.jar"
+        "University Management System/src/university/management/system/jcalendar-1.4.jar",
+        "c:\\Users\\dines\\Downloads\\rs2xml (1).jar",
+        "d:\\project\\postgresql-42.7.4.jar",
+        "Lara_Management_System/src/Lara/management/system/jcalendar-1.4.jar",
+        "d:\\project\\Mini_Project_Face_Recognition\\lib\\opencv-460.jar"
     ]
 }

@@ -1,9 +1,11 @@
 package Lara.management.system;
 
 import javax.swing.*;
+
+import net.proteanit.sql.DbUtils;
+
 import java.awt.*;
 import java.sql.*;
-import net.proteanit.sql.DbUtils;
 
 public class FeeStructure extends JFrame {
 
